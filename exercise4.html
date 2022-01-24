@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Exercise 4</title>
+<style>
+
+body{
+    margin: 0;
+}
+
+header, footer{
+    background: mediumspringgreen;
+    height: 100px;
+}
+
+.left{
+    width:100px;
+    background: rgb(255, 255, 255);
+    height:100%;
+    float:left;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(250, 253, 255);
+    line-height: 100px;
+    margin: 0px;
+}
+
+article{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+    flex: 3;
+}
+
+section{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+</style>
+</head>
+
+<body>
+<header><h1>Flex box examples</h1></header>
+<div class="left">Sidebar<br>Sidebar<br>Sidebar<br>Sidebar</div>
+
+
+<section>
+          
+    
+    <article>
+        <h4>Buidling a layout for HTML pages</h4>
+        <p>We can usee CSS to create page layouts and control the position of our html elemets. There are several layout techniques however we will go through some of them.</p>
+    </article>
+
+    <article>
+        <h4>Flexbox</h4>
+        <p>The flexbox make things easier to put html elemets either in a row or a column. Flexbox is one dimensional that is we can deal with the layout in one dimensiona at a time. We can use flexbox to create flexible and responsive layout.</p>
+    </article>
+
+    <article>
+        <h4>Floats</h4>
+        <p>The float property was introduced to allow web developers to implement simple layouts involving an image floating inside a column of text, with the text wrapping around the left or right of it. The kind of thing you might get in a newspaper layout. Floats are commonly used to create entier website layouts.</p>
+    </article>
+</section>
+</div>
+<footer><h1>Learning Flex @ 2022</h1></footer>
+</body>
+</html>
